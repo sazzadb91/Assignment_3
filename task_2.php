@@ -1,5 +1,5 @@
 <?php
-$numbers=range(1,40);
+$numbers=range(1,10);
 function removeEven($number){
     if($number % 2!=0){
         return $number;

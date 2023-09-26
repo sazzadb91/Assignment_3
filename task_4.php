@@ -5,8 +5,6 @@ $studentGrades = [
     "Student_3" => ["Math" => 75, "English" => 80, "Science" => 82],
 ];
 
-
-
 function gradeCheck($avggrad){
   foreach($avggrad as $student=>$subGrade){
     $total=0;
